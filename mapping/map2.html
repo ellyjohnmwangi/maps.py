@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_826a29e7d7bb48cea82e6e246800712d {
+                #map_66005865fcc84eb2901998836c7cdf42 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_826a29e7d7bb48cea82e6e246800712d" ></div>
+            <div class="folium-map" id="map_66005865fcc84eb2901998836c7cdf42" ></div>
         
 </body>
 <script>    
     
-            var map_826a29e7d7bb48cea82e6e246800712d = L.map(
-                "map_826a29e7d7bb48cea82e6e246800712d",
+            var map_66005865fcc84eb2901998836c7cdf42 = L.map(
+                "map_66005865fcc84eb2901998836c7cdf42",
                 {
                     center: [-1.371612, 36.719056],
                     crs: L.CRS.EPSG3857,
@@ -55,9 +55,164 @@
 
         
     
-            var tile_layer_b97ec83b1e83444e821edd161778ff48 = L.tileLayer(
+            var tile_layer_a117bcde7b3340f9a6f930de5a7d42eb = L.tileLayer(
                 "https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png",
                 {"attribution": "Map tiles by \u0026copy; \u003ca href=\"http://www.mapbox.com/about/maps\"\u003eMapbox\u003c/a\u003e Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_826a29e7d7bb48cea82e6e246800712d);
+            ).addTo(map_66005865fcc84eb2901998836c7cdf42);
         
+    
+            var feature_group_8e6c3476d0294d7e8ad3ef52009ecd70 = L.featureGroup(
+                {}
+            ).addTo(map_66005865fcc84eb2901998836c7cdf42);
+        
+    
+            var marker_6f2dde6b872e48a4aaafd237980c7b3f = L.marker(
+                [1.37, 36.719],
+                {}
+            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
+        
+    
+            var icon_a1eb6618938d4eecbc3ffd6277a537b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6f2dde6b872e48a4aaafd237980c7b3f.setIcon(icon_a1eb6618938d4eecbc3ffd6277a537b7);
+        
+    
+        var popup_c5b36b14e9284b47b2c1df228500536f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1dccba73cf54e9f92bfd92a44ad243a = $(`<div id="html_c1dccba73cf54e9f92bfd92a44ad243a" style="width: 100.0%; height: 100.0%;">gataka</div>`)[0];
+            popup_c5b36b14e9284b47b2c1df228500536f.setContent(html_c1dccba73cf54e9f92bfd92a44ad243a);
+        
+
+        marker_6f2dde6b872e48a4aaafd237980c7b3f.bindPopup(popup_c5b36b14e9284b47b2c1df228500536f)
+        ;
+
+        
+    
+    
+            var marker_8c7d52e059234d7cb53861059f3c3148 = L.marker(
+                [-0.435305, 36.959052],
+                {}
+            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
+        
+    
+            var icon_3c0b8762123c441c9f6512553543d002 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8c7d52e059234d7cb53861059f3c3148.setIcon(icon_3c0b8762123c441c9f6512553543d002);
+        
+    
+        var popup_2607d7715a674baa9d4abfc3f0700f2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e08924ef91a4300805df44b9a54b528 = $(`<div id="html_6e08924ef91a4300805df44b9a54b528" style="width: 100.0%; height: 100.0%;">nyeri</div>`)[0];
+            popup_2607d7715a674baa9d4abfc3f0700f2d.setContent(html_6e08924ef91a4300805df44b9a54b528);
+        
+
+        marker_8c7d52e059234d7cb53861059f3c3148.bindPopup(popup_2607d7715a674baa9d4abfc3f0700f2d)
+        ;
+
+        
+    
+    
+            var marker_e04228e13e1d4d8aa06b7f5ea8ec4b8d = L.marker(
+                [-1.038653, 37.083425],
+                {}
+            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
+        
+    
+            var icon_cf4aee52d74e4673a1063de96a5c386f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e04228e13e1d4d8aa06b7f5ea8ec4b8d.setIcon(icon_cf4aee52d74e4673a1063de96a5c386f);
+        
+    
+        var popup_adc75b14a500498392fe7c74cae9fb7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eed8001cc7c042aca5780f5512d4e905 = $(`<div id="html_eed8001cc7c042aca5780f5512d4e905" style="width: 100.0%; height: 100.0%;">thika</div>`)[0];
+            popup_adc75b14a500498392fe7c74cae9fb7e.setContent(html_eed8001cc7c042aca5780f5512d4e905);
+        
+
+        marker_e04228e13e1d4d8aa06b7f5ea8ec4b8d.bindPopup(popup_adc75b14a500498392fe7c74cae9fb7e)
+        ;
+
+        
+    
+    
+            var marker_1a814bbba2914903834f8866c427e191 = L.marker(
+                [-0.057283, 34.779527],
+                {}
+            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
+        
+    
+            var icon_d6b1ada56e84448ca45f02e8d0d6a179 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a814bbba2914903834f8866c427e191.setIcon(icon_d6b1ada56e84448ca45f02e8d0d6a179);
+        
+    
+        var popup_9a4fbdecd4fe4ee3a3d42edca20c9258 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1ff166881f84e5c96f9d0ad95ae22d9 = $(`<div id="html_a1ff166881f84e5c96f9d0ad95ae22d9" style="width: 100.0%; height: 100.0%;">kisumu</div>`)[0];
+            popup_9a4fbdecd4fe4ee3a3d42edca20c9258.setContent(html_a1ff166881f84e5c96f9d0ad95ae22d9);
+        
+
+        marker_1a814bbba2914903834f8866c427e191.bindPopup(popup_9a4fbdecd4fe4ee3a3d42edca20c9258)
+        ;
+
+        
+    
+    
+            var marker_935b3f79477b42c99ec2f1428b3bcef2 = L.marker(
+                [-0.721058, 37.154714],
+                {}
+            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
+        
+    
+            var icon_2d8fcbe01c2f4c66ba54584bd4d62580 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_935b3f79477b42c99ec2f1428b3bcef2.setIcon(icon_2d8fcbe01c2f4c66ba54584bd4d62580);
+        
+    
+        var popup_c134e59c87994c6cbb330ceffe2efbc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_798be3761e18425c907f1e952dc9d9a4 = $(`<div id="html_798be3761e18425c907f1e952dc9d9a4" style="width: 100.0%; height: 100.0%;">murang'a</div>`)[0];
+            popup_c134e59c87994c6cbb330ceffe2efbc6.setContent(html_798be3761e18425c907f1e952dc9d9a4);
+        
+
+        marker_935b3f79477b42c99ec2f1428b3bcef2.bindPopup(popup_c134e59c87994c6cbb330ceffe2efbc6)
+        ;
+
+        
+    
+    
+            var marker_6e70f5d0fd0f48f8864dc975dcadd5f3 = L.marker(
+                [-0.275395, 36.377494],
+                {}
+            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
+        
+    
+            var icon_9cbd201131a44a9e886fdcce2b9fbb17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_6e70f5d0fd0f48f8864dc975dcadd5f3.setIcon(icon_9cbd201131a44a9e886fdcce2b9fbb17);
+        
+    
+        var popup_69c777893a6d4463814a170869635d39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ace3611d34c84dd298365df6ffec71a2 = $(`<div id="html_ace3611d34c84dd298365df6ffec71a2" style="width: 100.0%; height: 100.0%;">olkalou</div>`)[0];
+            popup_69c777893a6d4463814a170869635d39.setContent(html_ace3611d34c84dd298365df6ffec71a2);
+        
+
+        marker_6e70f5d0fd0f48f8864dc975dcadd5f3.bindPopup(popup_69c777893a6d4463814a170869635d39)
+        ;
+
+        
+    
 </script>
