@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<head>
+<head>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
+    
         <script>
             L_NO_TOUCH = false;
             L_DISABLE_3D = false;
         </script>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -19,11 +19,11 @@
     <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
-
+    
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_66005865fcc84eb2901998836c7cdf42 {
+                #map_b6184d56ae3b49fd8fe849cd0a82090a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -31,17 +31,17 @@
                     top: 0.0%;
                 }
             </style>
-
+        
 </head>
-<body>
-
-            <div class="folium-map" id="map_66005865fcc84eb2901998836c7cdf42" ></div>
-
+<body>    
+    
+            <div class="folium-map" id="map_b6184d56ae3b49fd8fe849cd0a82090a" ></div>
+        
 </body>
-<script>
-
-            var map_66005865fcc84eb2901998836c7cdf42 = L.map(
-                "map_66005865fcc84eb2901998836c7cdf42",
+<script>    
+    
+            var map_b6184d56ae3b49fd8fe849cd0a82090a = L.map(
+                "map_b6184d56ae3b49fd8fe849cd0a82090a",
                 {
                     center: [-1.371612, 36.719056],
                     crs: L.CRS.EPSG3857,
@@ -51,168 +51,168 @@
                 }
             );
 
+            
 
-
-
-
-            var tile_layer_a117bcde7b3340f9a6f930de5a7d42eb = L.tileLayer(
+        
+    
+            var tile_layer_89e72ad985f049f398bc5abd90e9416b = L.tileLayer(
                 "https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png",
                 {"attribution": "Map tiles by \u0026copy; \u003ca href=\"http://www.mapbox.com/about/maps\"\u003eMapbox\u003c/a\u003e Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_66005865fcc84eb2901998836c7cdf42);
-
-
-            var feature_group_8e6c3476d0294d7e8ad3ef52009ecd70 = L.featureGroup(
+            ).addTo(map_b6184d56ae3b49fd8fe849cd0a82090a);
+        
+    
+            var feature_group_7b59768508b04fd693b96e794b7e884e = L.featureGroup(
                 {}
-            ).addTo(map_66005865fcc84eb2901998836c7cdf42);
-
-
-            var marker_6f2dde6b872e48a4aaafd237980c7b3f = L.marker(
+            ).addTo(map_b6184d56ae3b49fd8fe849cd0a82090a);
+        
+    
+            var marker_76e5233f86b849f9a475917637385cb0 = L.marker(
                 [1.37, 36.719],
                 {}
-            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
-
-
-            var icon_a1eb6618938d4eecbc3ffd6277a537b7 = L.AwesomeMarkers.icon(
+            ).addTo(feature_group_7b59768508b04fd693b96e794b7e884e);
+        
+    
+            var icon_f8a4f2fc56f24daa82d8c2287f1f5a01 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_6f2dde6b872e48a4aaafd237980c7b3f.setIcon(icon_a1eb6618938d4eecbc3ffd6277a537b7);
+            marker_76e5233f86b849f9a475917637385cb0.setIcon(icon_f8a4f2fc56f24daa82d8c2287f1f5a01);
+        
+    
+        var popup_c6a47a90707b4beeba503a66d4bc1952 = L.popup({"maxWidth": "100%"});
 
+        
+            var html_748764c326e341c4bb8beffadace5065 = $(`<div id="html_748764c326e341c4bb8beffadace5065" style="width: 100.0%; height: 100.0%;">a town in kenya</div>`)[0];
+            popup_c6a47a90707b4beeba503a66d4bc1952.setContent(html_748764c326e341c4bb8beffadace5065);
+        
 
-        var popup_c5b36b14e9284b47b2c1df228500536f = L.popup({"maxWidth": "100%"});
-
-
-            var html_c1dccba73cf54e9f92bfd92a44ad243a = $(`<div id="html_c1dccba73cf54e9f92bfd92a44ad243a" style="width: 100.0%; height: 100.0%;">gataka</div>`)[0];
-            popup_c5b36b14e9284b47b2c1df228500536f.setContent(html_c1dccba73cf54e9f92bfd92a44ad243a);
-
-
-        marker_6f2dde6b872e48a4aaafd237980c7b3f.bindPopup(popup_c5b36b14e9284b47b2c1df228500536f)
+        marker_76e5233f86b849f9a475917637385cb0.bindPopup(popup_c6a47a90707b4beeba503a66d4bc1952)
         ;
 
-
-
-
-            var marker_8c7d52e059234d7cb53861059f3c3148 = L.marker(
-                [-0.435305, 36.959052],
+        
+    
+    
+            var marker_a8283b04e0824859954316d1dc3babb9 = L.marker(
+                [1.37, 36.719],
                 {}
-            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
-
-
-            var icon_3c0b8762123c441c9f6512553543d002 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            ).addTo(feature_group_7b59768508b04fd693b96e794b7e884e);
+        
+    
+            var icon_b2d7eeac525a46e2a03f6380cb19f1e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_8c7d52e059234d7cb53861059f3c3148.setIcon(icon_3c0b8762123c441c9f6512553543d002);
+            marker_a8283b04e0824859954316d1dc3babb9.setIcon(icon_b2d7eeac525a46e2a03f6380cb19f1e7);
+        
+    
+        var popup_22e85b0110c447a395e942d7da53b9b0 = L.popup({"maxWidth": "100%"});
 
+        
+            var html_e2638f8b5fea4711b276ba2a529d5989 = $(`<div id="html_e2638f8b5fea4711b276ba2a529d5989" style="width: 100.0%; height: 100.0%;">a town in kenya</div>`)[0];
+            popup_22e85b0110c447a395e942d7da53b9b0.setContent(html_e2638f8b5fea4711b276ba2a529d5989);
+        
 
-        var popup_2607d7715a674baa9d4abfc3f0700f2d = L.popup({"maxWidth": "100%"});
-
-
-            var html_6e08924ef91a4300805df44b9a54b528 = $(`<div id="html_6e08924ef91a4300805df44b9a54b528" style="width: 100.0%; height: 100.0%;">nyeri</div>`)[0];
-            popup_2607d7715a674baa9d4abfc3f0700f2d.setContent(html_6e08924ef91a4300805df44b9a54b528);
-
-
-        marker_8c7d52e059234d7cb53861059f3c3148.bindPopup(popup_2607d7715a674baa9d4abfc3f0700f2d)
+        marker_a8283b04e0824859954316d1dc3babb9.bindPopup(popup_22e85b0110c447a395e942d7da53b9b0)
         ;
 
-
-
-
-            var marker_e04228e13e1d4d8aa06b7f5ea8ec4b8d = L.marker(
-                [-1.038653, 37.083425],
+        
+    
+    
+            var marker_50f1ebc959614609b4d32e05e3874fda = L.marker(
+                [1.37, 36.719],
                 {}
-            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
-
-
-            var icon_cf4aee52d74e4673a1063de96a5c386f = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            ).addTo(feature_group_7b59768508b04fd693b96e794b7e884e);
+        
+    
+            var icon_fa617b712c664385bd13357d5f313dc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_e04228e13e1d4d8aa06b7f5ea8ec4b8d.setIcon(icon_cf4aee52d74e4673a1063de96a5c386f);
+            marker_50f1ebc959614609b4d32e05e3874fda.setIcon(icon_fa617b712c664385bd13357d5f313dc5);
+        
+    
+        var popup_95dc261817c54dd7bf7110e28d0ff65c = L.popup({"maxWidth": "100%"});
 
+        
+            var html_d86946ad8ad54ce29d0de23a375a1a32 = $(`<div id="html_d86946ad8ad54ce29d0de23a375a1a32" style="width: 100.0%; height: 100.0%;">a town in kenya</div>`)[0];
+            popup_95dc261817c54dd7bf7110e28d0ff65c.setContent(html_d86946ad8ad54ce29d0de23a375a1a32);
+        
 
-        var popup_adc75b14a500498392fe7c74cae9fb7e = L.popup({"maxWidth": "100%"});
-
-
-            var html_eed8001cc7c042aca5780f5512d4e905 = $(`<div id="html_eed8001cc7c042aca5780f5512d4e905" style="width: 100.0%; height: 100.0%;">thika</div>`)[0];
-            popup_adc75b14a500498392fe7c74cae9fb7e.setContent(html_eed8001cc7c042aca5780f5512d4e905);
-
-
-        marker_e04228e13e1d4d8aa06b7f5ea8ec4b8d.bindPopup(popup_adc75b14a500498392fe7c74cae9fb7e)
+        marker_50f1ebc959614609b4d32e05e3874fda.bindPopup(popup_95dc261817c54dd7bf7110e28d0ff65c)
         ;
 
-
-
-
-            var marker_1a814bbba2914903834f8866c427e191 = L.marker(
-                [-0.057283, 34.779527],
+        
+    
+    
+            var marker_904ee51d0c1f4b9fbf746567216e544d = L.marker(
+                [1.37, 36.719],
                 {}
-            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
-
-
-            var icon_d6b1ada56e84448ca45f02e8d0d6a179 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            ).addTo(feature_group_7b59768508b04fd693b96e794b7e884e);
+        
+    
+            var icon_7eb9ffc447fa4bd4bb1ecd439a1c5a67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_1a814bbba2914903834f8866c427e191.setIcon(icon_d6b1ada56e84448ca45f02e8d0d6a179);
+            marker_904ee51d0c1f4b9fbf746567216e544d.setIcon(icon_7eb9ffc447fa4bd4bb1ecd439a1c5a67);
+        
+    
+        var popup_5107fca29c4b4a77b6b44d674e2fe10c = L.popup({"maxWidth": "100%"});
 
+        
+            var html_4e6773ffc4c44ddeb21eb0c4273cd6f6 = $(`<div id="html_4e6773ffc4c44ddeb21eb0c4273cd6f6" style="width: 100.0%; height: 100.0%;">a town in kenya</div>`)[0];
+            popup_5107fca29c4b4a77b6b44d674e2fe10c.setContent(html_4e6773ffc4c44ddeb21eb0c4273cd6f6);
+        
 
-        var popup_9a4fbdecd4fe4ee3a3d42edca20c9258 = L.popup({"maxWidth": "100%"});
-
-
-            var html_a1ff166881f84e5c96f9d0ad95ae22d9 = $(`<div id="html_a1ff166881f84e5c96f9d0ad95ae22d9" style="width: 100.0%; height: 100.0%;">kisumu</div>`)[0];
-            popup_9a4fbdecd4fe4ee3a3d42edca20c9258.setContent(html_a1ff166881f84e5c96f9d0ad95ae22d9);
-
-
-        marker_1a814bbba2914903834f8866c427e191.bindPopup(popup_9a4fbdecd4fe4ee3a3d42edca20c9258)
+        marker_904ee51d0c1f4b9fbf746567216e544d.bindPopup(popup_5107fca29c4b4a77b6b44d674e2fe10c)
         ;
 
-
-
-
-            var marker_935b3f79477b42c99ec2f1428b3bcef2 = L.marker(
-                [-0.721058, 37.154714],
+        
+    
+    
+            var marker_ec99ce369e8f4b0d9d14252ec6851fe6 = L.marker(
+                [1.37, 36.719],
                 {}
-            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
-
-
-            var icon_2d8fcbe01c2f4c66ba54584bd4d62580 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            ).addTo(feature_group_7b59768508b04fd693b96e794b7e884e);
+        
+    
+            var icon_9b84719396504bce91c14813ea202649 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_935b3f79477b42c99ec2f1428b3bcef2.setIcon(icon_2d8fcbe01c2f4c66ba54584bd4d62580);
+            marker_ec99ce369e8f4b0d9d14252ec6851fe6.setIcon(icon_9b84719396504bce91c14813ea202649);
+        
+    
+        var popup_12fc94e532d04105814a238503cabf5a = L.popup({"maxWidth": "100%"});
 
+        
+            var html_e078fcdaf24d43ee9c830d169c70f895 = $(`<div id="html_e078fcdaf24d43ee9c830d169c70f895" style="width: 100.0%; height: 100.0%;">a town in kenya</div>`)[0];
+            popup_12fc94e532d04105814a238503cabf5a.setContent(html_e078fcdaf24d43ee9c830d169c70f895);
+        
 
-        var popup_c134e59c87994c6cbb330ceffe2efbc6 = L.popup({"maxWidth": "100%"});
-
-
-            var html_798be3761e18425c907f1e952dc9d9a4 = $(`<div id="html_798be3761e18425c907f1e952dc9d9a4" style="width: 100.0%; height: 100.0%;">murang'a</div>`)[0];
-            popup_c134e59c87994c6cbb330ceffe2efbc6.setContent(html_798be3761e18425c907f1e952dc9d9a4);
-
-
-        marker_935b3f79477b42c99ec2f1428b3bcef2.bindPopup(popup_c134e59c87994c6cbb330ceffe2efbc6)
+        marker_ec99ce369e8f4b0d9d14252ec6851fe6.bindPopup(popup_12fc94e532d04105814a238503cabf5a)
         ;
 
-
-
-
-            var marker_6e70f5d0fd0f48f8864dc975dcadd5f3 = L.marker(
-                [-0.275395, 36.377494],
+        
+    
+    
+            var marker_e21b434452a04452b649754b979e0c20 = L.marker(
+                [1.37, 36.719],
                 {}
-            ).addTo(feature_group_8e6c3476d0294d7e8ad3ef52009ecd70);
-
-
-            var icon_9cbd201131a44a9e886fdcce2b9fbb17 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            ).addTo(feature_group_7b59768508b04fd693b96e794b7e884e);
+        
+    
+            var icon_6a4090e4354a480bb7dccca2a6e10cfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_6e70f5d0fd0f48f8864dc975dcadd5f3.setIcon(icon_9cbd201131a44a9e886fdcce2b9fbb17);
+            marker_e21b434452a04452b649754b979e0c20.setIcon(icon_6a4090e4354a480bb7dccca2a6e10cfb);
+        
+    
+        var popup_b3bdc4bf7f4c4a119727e0f6c44ad07f = L.popup({"maxWidth": "100%"});
 
+        
+            var html_eee45ff3803e405597f7c9fe5845003d = $(`<div id="html_eee45ff3803e405597f7c9fe5845003d" style="width: 100.0%; height: 100.0%;">a town in kenya</div>`)[0];
+            popup_b3bdc4bf7f4c4a119727e0f6c44ad07f.setContent(html_eee45ff3803e405597f7c9fe5845003d);
+        
 
-        var popup_69c777893a6d4463814a170869635d39 = L.popup({"maxWidth": "100%"});
-
-
-            var html_ace3611d34c84dd298365df6ffec71a2 = $(`<div id="html_ace3611d34c84dd298365df6ffec71a2" style="width: 100.0%; height: 100.0%;">olkalou</div>`)[0];
-            popup_69c777893a6d4463814a170869635d39.setContent(html_ace3611d34c84dd298365df6ffec71a2);
-
-
-        marker_6e70f5d0fd0f48f8864dc975dcadd5f3.bindPopup(popup_69c777893a6d4463814a170869635d39)
+        marker_e21b434452a04452b649754b979e0c20.bindPopup(popup_b3bdc4bf7f4c4a119727e0f6c44ad07f)
         ;
 
-
-
+        
+    
 </script>
